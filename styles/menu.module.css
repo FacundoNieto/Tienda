@@ -1,0 +1,23 @@
+.menu {
+    background-color: white;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    justify-content: space-around;
+  }
+  
+  .menu > div { /*acá se aplica el flex a todos los div que estén dentro de la etiqueta que tenga ".menu" como clase*/
+    display: flex;
+  }
+  
+  .link { /*estilo para los <a></a> que están dentro de los Links NO PARA LOS LINKS, si no para los <a></a>*/
+    display: block;
+    padding: 20px 15px;
+  }
+  
+  .link:hover {
+    background-color: rgb(38, 111, 180);
+    color: white;
+  }
+  
